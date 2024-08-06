@@ -86,9 +86,9 @@ class CameraManager: ObservableObject {
     private func setupPhotoOutput() {
         if session.canAddOutput(photoOutput) {
             session.addOutput(photoOutput)
-            photoOutput.isHighResolutionCaptureEnabled = true
+//            photoOutput.isHighResolutionCaptureEnabled = true
             photoOutput.maxPhotoQualityPrioritization = .quality // work for ios 15.6 and the older versions
-            // photoOutput.maxPhotoDimensions = .init(width: 4032, height: 3024) // for ios 16.0*
+            photoOutput.maxPhotoDimensions = .init(width: 4032, height: 3024) // for ios 16.0*
             status = .configured
         } else {
             print("CameraManager: Could not add photo output to the session")

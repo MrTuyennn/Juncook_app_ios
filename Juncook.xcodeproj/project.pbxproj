@@ -18,6 +18,12 @@
 		7A8ADC5B2C5A7F37004A1A69 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8ADC5A2C5A7F37004A1A69 /* CameraManager.swift */; };
 		7A8ADC5D2C5A840C004A1A69 /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8ADC5C2C5A840C004A1A69 /* CameraViewModel.swift */; };
 		7A8ADC5F2C5A84FC004A1A69 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8ADC5E2C5A84FC004A1A69 /* CameraView.swift */; };
+		7AE54FF12C6269A300A1AE7C /* CaptureButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE54FF02C6269A300A1AE7C /* CaptureButton.swift */; };
+		7AE54FF32C626B7000A1AE7C /* CameraSwitchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE54FF22C626B7000A1AE7C /* CameraSwitchButton.swift */; };
+		7AE54FF52C626BD500A1AE7C /* FocusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE54FF42C626BD500A1AE7C /* FocusView.swift */; };
+		7AE54FF72C626C4A00A1AE7C /* SwitchFlash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE54FF62C626C4A00A1AE7C /* SwitchFlash.swift */; };
+		7AE54FF92C62727D00A1AE7C /* SelectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE54FF82C62727D00A1AE7C /* SelectButton.swift */; };
+		7AE54FFB2C62783E00A1AE7C /* CancelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE54FFA2C62783E00A1AE7C /* CancelButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +58,12 @@
 		7A8ADC5A2C5A7F37004A1A69 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
 		7A8ADC5C2C5A840C004A1A69 /* CameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
 		7A8ADC5E2C5A84FC004A1A69 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		7AE54FF02C6269A300A1AE7C /* CaptureButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureButton.swift; sourceTree = "<group>"; };
+		7AE54FF22C626B7000A1AE7C /* CameraSwitchButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraSwitchButton.swift; sourceTree = "<group>"; };
+		7AE54FF42C626BD500A1AE7C /* FocusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusView.swift; sourceTree = "<group>"; };
+		7AE54FF62C626C4A00A1AE7C /* SwitchFlash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchFlash.swift; sourceTree = "<group>"; };
+		7AE54FF82C62727D00A1AE7C /* SelectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectButton.swift; sourceTree = "<group>"; };
+		7AE54FFA2C62783E00A1AE7C /* CancelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,12 +151,26 @@
 		7A8ADC572C5A47A7004A1A69 /* camera */ = {
 			isa = PBXGroup;
 			children = (
+				7AE54FEF2C62680100A1AE7C /* component */,
 				7A8ADC582C5A47BD004A1A69 /* CameraPreview.swift */,
 				7A8ADC5A2C5A7F37004A1A69 /* CameraManager.swift */,
 				7A8ADC5C2C5A840C004A1A69 /* CameraViewModel.swift */,
 				7A8ADC5E2C5A84FC004A1A69 /* CameraView.swift */,
 			);
 			path = camera;
+			sourceTree = "<group>";
+		};
+		7AE54FEF2C62680100A1AE7C /* component */ = {
+			isa = PBXGroup;
+			children = (
+				7AE54FF02C6269A300A1AE7C /* CaptureButton.swift */,
+				7AE54FF22C626B7000A1AE7C /* CameraSwitchButton.swift */,
+				7AE54FF42C626BD500A1AE7C /* FocusView.swift */,
+				7AE54FF62C626C4A00A1AE7C /* SwitchFlash.swift */,
+				7AE54FF82C62727D00A1AE7C /* SelectButton.swift */,
+				7AE54FFA2C62783E00A1AE7C /* CancelButton.swift */,
+			);
+			path = component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,11 +304,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A8ADC592C5A47BD004A1A69 /* CameraPreview.swift in Sources */,
+				7AE54FF12C6269A300A1AE7C /* CaptureButton.swift in Sources */,
+				7AE54FF52C626BD500A1AE7C /* FocusView.swift in Sources */,
+				7AE54FF92C62727D00A1AE7C /* SelectButton.swift in Sources */,
+				7AE54FF32C626B7000A1AE7C /* CameraSwitchButton.swift in Sources */,
 				7A8ADC302C5A4764004A1A69 /* ContentView.swift in Sources */,
 				7A8ADC5B2C5A7F37004A1A69 /* CameraManager.swift in Sources */,
 				7A8ADC5F2C5A84FC004A1A69 /* CameraView.swift in Sources */,
 				7A8ADC5D2C5A840C004A1A69 /* CameraViewModel.swift in Sources */,
+				7AE54FF72C626C4A00A1AE7C /* SwitchFlash.swift in Sources */,
 				7A8ADC2E2C5A4764004A1A69 /* JuncookApp.swift in Sources */,
+				7AE54FFB2C62783E00A1AE7C /* CancelButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
