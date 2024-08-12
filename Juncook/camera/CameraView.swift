@@ -49,12 +49,7 @@ struct CameraView: View {
             )
             .animation(.easeInOut, value: 0.5)
             if isShowImage {
-              VStack {
-
-              }.frame(
-                maxWidth: .infinity,
-                maxHeight: .infinity
-              ).background(Color.red)
+              ImageCropperView(imageCropper: $viewModel.capturedImage)
             }
             if isFocused {
               FocusView(position: $focusLocation)
@@ -85,7 +80,7 @@ struct CameraView: View {
                   PhotoThumbnail(image: $viewModel.capturedImage)
                   Spacer()
                   CaptureButton {
-                    //                            viewModel.captureImage()
+                                                viewModel.captureImage()
                     self.isShowImage = true
                   }
                   Spacer()

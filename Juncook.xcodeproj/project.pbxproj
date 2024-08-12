@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A7A80CD2C6A5A6C00911BA0 /* Hotels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7A80CC2C6A5A6C00911BA0 /* Hotels.swift */; };
 		7A8ADC2E2C5A4764004A1A69 /* JuncookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8ADC2D2C5A4764004A1A69 /* JuncookApp.swift */; };
 		7A8ADC302C5A4764004A1A69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8ADC2F2C5A4764004A1A69 /* ContentView.swift */; };
 		7A8ADC322C5A4766004A1A69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A8ADC312C5A4766004A1A69 /* Assets.xcassets */; };
@@ -24,6 +25,8 @@
 		7AE54FF72C626C4A00A1AE7C /* SwitchFlash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE54FF62C626C4A00A1AE7C /* SwitchFlash.swift */; };
 		7AE54FF92C62727D00A1AE7C /* SelectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE54FF82C62727D00A1AE7C /* SelectButton.swift */; };
 		7AE54FFB2C62783E00A1AE7C /* CancelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE54FFA2C62783E00A1AE7C /* CancelButton.swift */; };
+		7AE54FFD2C635BA100A1AE7C /* ImageCropperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE54FFC2C635BA100A1AE7C /* ImageCropperView.swift */; };
+		7AF192B72C6A62EB0020533A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF192B62C6A62EB0020533A /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A7A80CC2C6A5A6C00911BA0 /* Hotels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Hotels.swift; path = ../model/Hotels.swift; sourceTree = "<group>"; };
 		7A8ADC2A2C5A4764004A1A69 /* Juncook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Juncook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A8ADC2D2C5A4764004A1A69 /* JuncookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuncookApp.swift; sourceTree = "<group>"; };
 		7A8ADC2F2C5A4764004A1A69 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,6 +68,8 @@
 		7AE54FF62C626C4A00A1AE7C /* SwitchFlash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchFlash.swift; sourceTree = "<group>"; };
 		7AE54FF82C62727D00A1AE7C /* SelectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectButton.swift; sourceTree = "<group>"; };
 		7AE54FFA2C62783E00A1AE7C /* CancelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelButton.swift; sourceTree = "<group>"; };
+		7AE54FFC2C635BA100A1AE7C /* ImageCropperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCropperView.swift; sourceTree = "<group>"; };
+		7AF192B62C6A62EB0020533A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +97,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A3580042C6A629500FC031B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7A7A80CC2C6A5A6C00911BA0 /* Hotels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7A7A80CA2C6A5A2700911BA0 /* juncookHotel */ = {
+			isa = PBXGroup;
+			children = (
+				7A3580042C6A629500FC031B /* Models */,
+				7A7A80CE2C6A61D300911BA0 /* Views */,
+			);
+			path = juncookHotel;
+			sourceTree = "<group>";
+		};
+		7A7A80CE2C6A61D300911BA0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7AF192B62C6A62EB0020533A /* CardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		7A8ADC212C5A4764004A1A69 = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +145,7 @@
 		7A8ADC2C2C5A4764004A1A69 /* Juncook */ = {
 			isa = PBXGroup;
 			children = (
+				7A7A80CA2C6A5A2700911BA0 /* juncookHotel */,
 				7A8ADC572C5A47A7004A1A69 /* camera */,
 				7A8ADC2D2C5A4764004A1A69 /* JuncookApp.swift */,
 				7A8ADC2F2C5A4764004A1A69 /* ContentView.swift */,
@@ -169,6 +201,7 @@
 				7AE54FF62C626C4A00A1AE7C /* SwitchFlash.swift */,
 				7AE54FF82C62727D00A1AE7C /* SelectButton.swift */,
 				7AE54FFA2C62783E00A1AE7C /* CancelButton.swift */,
+				7AE54FFC2C635BA100A1AE7C /* ImageCropperView.swift */,
 			);
 			path = component;
 			sourceTree = "<group>";
@@ -305,13 +338,16 @@
 			files = (
 				7A8ADC592C5A47BD004A1A69 /* CameraPreview.swift in Sources */,
 				7AE54FF12C6269A300A1AE7C /* CaptureButton.swift in Sources */,
+				7A7A80CD2C6A5A6C00911BA0 /* Hotels.swift in Sources */,
 				7AE54FF52C626BD500A1AE7C /* FocusView.swift in Sources */,
+				7AF192B72C6A62EB0020533A /* CardView.swift in Sources */,
 				7AE54FF92C62727D00A1AE7C /* SelectButton.swift in Sources */,
 				7AE54FF32C626B7000A1AE7C /* CameraSwitchButton.swift in Sources */,
 				7A8ADC302C5A4764004A1A69 /* ContentView.swift in Sources */,
 				7A8ADC5B2C5A7F37004A1A69 /* CameraManager.swift in Sources */,
 				7A8ADC5F2C5A84FC004A1A69 /* CameraView.swift in Sources */,
 				7A8ADC5D2C5A840C004A1A69 /* CameraViewModel.swift in Sources */,
+				7AE54FFD2C635BA100A1AE7C /* ImageCropperView.swift in Sources */,
 				7AE54FF72C626C4A00A1AE7C /* SwitchFlash.swift in Sources */,
 				7A8ADC2E2C5A4764004A1A69 /* JuncookApp.swift in Sources */,
 				7AE54FFB2C62783E00A1AE7C /* CancelButton.swift in Sources */,
