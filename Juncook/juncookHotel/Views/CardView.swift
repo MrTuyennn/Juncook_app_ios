@@ -31,7 +31,7 @@ struct CardView: View {
             }
             .frame(width: 250,height: 250)
             
-            VStack(alignment: .leading, content: {
+            VStack(alignment: .leading) {
                 HStack {
                     Spacer()
                     ZStack {
@@ -43,8 +43,12 @@ struct CardView: View {
                     Spacer()
                     
                     Text(travelName).font(.custom("Poppins-Regular", size: 18)).foregroundStyle(.white).kerning(-1)
-                }
-            })
+                    HStack {
+                        Image(systemName: "mappin.and.ellipse.cirle").imageScale(.large).foregroundColor(.white)
+                        Text(travelLocation).font(.custom("Poppins-Light", size: 15)).foregroundStyle(.white).kerning(-1)
+                    }
+                }.padding([.vertical,.horizontal])
+            }.frame(maxWidth: 250,maxHeight: 250)
         }
     }
 }

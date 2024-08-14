@@ -27,6 +27,9 @@
 		7AE54FFB2C62783E00A1AE7C /* CancelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE54FFA2C62783E00A1AE7C /* CancelButton.swift */; };
 		7AE54FFD2C635BA100A1AE7C /* ImageCropperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE54FFC2C635BA100A1AE7C /* ImageCropperView.swift */; };
 		7AF192B72C6A62EB0020533A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF192B62C6A62EB0020533A /* CardView.swift */; };
+		7AF192B92C6BA6250020533A /* horizontalEventsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF192B82C6BA6250020533A /* horizontalEventsCard.swift */; };
+		7AF192BC2C6BA8510020533A /* EventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF192BB2C6BA8510020533A /* EventListView.swift */; };
+		7AF192BE2C6CFB4A0020533A /* HotelDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF192BD2C6CFB4A0020533A /* HotelDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +73,9 @@
 		7AE54FFA2C62783E00A1AE7C /* CancelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelButton.swift; sourceTree = "<group>"; };
 		7AE54FFC2C635BA100A1AE7C /* ImageCropperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCropperView.swift; sourceTree = "<group>"; };
 		7AF192B62C6A62EB0020533A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		7AF192B82C6BA6250020533A /* horizontalEventsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = horizontalEventsCard.swift; sourceTree = "<group>"; };
+		7AF192BB2C6BA8510020533A /* EventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListView.swift; sourceTree = "<group>"; };
+		7AF192BD2C6CFB4A0020533A /* HotelDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +124,9 @@
 			isa = PBXGroup;
 			children = (
 				7AF192B62C6A62EB0020533A /* CardView.swift */,
+				7AF192B82C6BA6250020533A /* horizontalEventsCard.swift */,
+				7AF192BB2C6BA8510020533A /* EventListView.swift */,
+				7AF192BD2C6CFB4A0020533A /* HotelDetailsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -336,6 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AF192BE2C6CFB4A0020533A /* HotelDetailsView.swift in Sources */,
 				7A8ADC592C5A47BD004A1A69 /* CameraPreview.swift in Sources */,
 				7AE54FF12C6269A300A1AE7C /* CaptureButton.swift in Sources */,
 				7A7A80CD2C6A5A6C00911BA0 /* Hotels.swift in Sources */,
@@ -350,7 +360,9 @@
 				7AE54FFD2C635BA100A1AE7C /* ImageCropperView.swift in Sources */,
 				7AE54FF72C626C4A00A1AE7C /* SwitchFlash.swift in Sources */,
 				7A8ADC2E2C5A4764004A1A69 /* JuncookApp.swift in Sources */,
+				7AF192B92C6BA6250020533A /* horizontalEventsCard.swift in Sources */,
 				7AE54FFB2C62783E00A1AE7C /* CancelButton.swift in Sources */,
+				7AF192BC2C6BA8510020533A /* EventListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,6 +537,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -557,6 +570,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
