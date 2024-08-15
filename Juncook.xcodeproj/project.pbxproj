@@ -30,6 +30,9 @@
 		7AF192B92C6BA6250020533A /* horizontalEventsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF192B82C6BA6250020533A /* horizontalEventsCard.swift */; };
 		7AF192BC2C6BA8510020533A /* EventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF192BB2C6BA8510020533A /* EventListView.swift */; };
 		7AF192BE2C6CFB4A0020533A /* HotelDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF192BD2C6CFB4A0020533A /* HotelDetailsView.swift */; };
+		7AFE40112C6DE02100093B9D /* CampDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE40102C6DE02100093B9D /* CampDetailView.swift */; };
+		7AFE40132C6DE14800093B9D /* ShipDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE40122C6DE14800093B9D /* ShipDetailView.swift */; };
+		7AFE40152C6DE19E00093B9D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE40142C6DE19E00093B9D /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +79,9 @@
 		7AF192B82C6BA6250020533A /* horizontalEventsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = horizontalEventsCard.swift; sourceTree = "<group>"; };
 		7AF192BB2C6BA8510020533A /* EventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListView.swift; sourceTree = "<group>"; };
 		7AF192BD2C6CFB4A0020533A /* HotelDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelDetailsView.swift; sourceTree = "<group>"; };
+		7AFE40102C6DE02100093B9D /* CampDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampDetailView.swift; sourceTree = "<group>"; };
+		7AFE40122C6DE14800093B9D /* ShipDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipDetailView.swift; sourceTree = "<group>"; };
+		7AFE40142C6DE19E00093B9D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +133,9 @@
 				7AF192B82C6BA6250020533A /* horizontalEventsCard.swift */,
 				7AF192BB2C6BA8510020533A /* EventListView.swift */,
 				7AF192BD2C6CFB4A0020533A /* HotelDetailsView.swift */,
+				7AFE40102C6DE02100093B9D /* CampDetailView.swift */,
+				7AFE40122C6DE14800093B9D /* ShipDetailView.swift */,
+				7AFE40142C6DE19E00093B9D /* HomeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -348,7 +357,9 @@
 				7AF192BE2C6CFB4A0020533A /* HotelDetailsView.swift in Sources */,
 				7A8ADC592C5A47BD004A1A69 /* CameraPreview.swift in Sources */,
 				7AE54FF12C6269A300A1AE7C /* CaptureButton.swift in Sources */,
+				7AFE40112C6DE02100093B9D /* CampDetailView.swift in Sources */,
 				7A7A80CD2C6A5A6C00911BA0 /* Hotels.swift in Sources */,
+				7AFE40132C6DE14800093B9D /* ShipDetailView.swift in Sources */,
 				7AE54FF52C626BD500A1AE7C /* FocusView.swift in Sources */,
 				7AF192B72C6A62EB0020533A /* CardView.swift in Sources */,
 				7AE54FF92C62727D00A1AE7C /* SelectButton.swift in Sources */,
@@ -358,6 +369,7 @@
 				7A8ADC5F2C5A84FC004A1A69 /* CameraView.swift in Sources */,
 				7A8ADC5D2C5A840C004A1A69 /* CameraViewModel.swift in Sources */,
 				7AE54FFD2C635BA100A1AE7C /* ImageCropperView.swift in Sources */,
+				7AFE40152C6DE19E00093B9D /* HomeView.swift in Sources */,
 				7AE54FF72C626C4A00A1AE7C /* SwitchFlash.swift in Sources */,
 				7A8ADC2E2C5A4764004A1A69 /* JuncookApp.swift in Sources */,
 				7AF192B92C6BA6250020533A /* horizontalEventsCard.swift in Sources */,

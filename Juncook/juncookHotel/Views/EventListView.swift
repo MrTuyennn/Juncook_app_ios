@@ -24,7 +24,7 @@ struct EventListView: View {
         ZStack {
             RoundedRectangle(cornerRadius: 25)
                 .fill(.white)
-                .frame(height: 25)
+                .frame(height: 130)
             
             HStack(spacing:15){
                 AsyncImage(url:URL(string: eventImage)){ image in
