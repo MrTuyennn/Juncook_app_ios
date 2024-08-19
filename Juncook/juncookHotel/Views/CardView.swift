@@ -37,18 +37,44 @@ struct CardView: View {
                     ZStack {
                         RoundedRectangle(cornerRadius: 12)
                             .fill(.white)
-                            .frame(width: 40,height: 40)
-                        Image(systemName: isLiked ? "heart.fill" : "heart").resizable().scaledToFit().frame(width: 25,height: 25).foregroundColor(Color("c0rage"))
-                    }
-                    Spacer()
+                            .frame(width: 40, height: 40)
+                        Image(systemName: isLiked ? "heart.fill" : "heart")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 25, height: 25)
+                            .foregroundColor(Color(.orange))
+                    }.padding([.vertical, .horizontal])
+                }
+                
+                Spacer()
+                
+                HStack {
+                    Text(travelName)
+                        .font(.custom("Poppins-Regular", size: 18))
+                        .foregroundStyle(.white)
+                        .kerning(-1)
                     
-                    Text(travelName).font(.custom("Poppins-Regular", size: 18)).foregroundStyle(.white).kerning(-1)
                     HStack {
-                        Image(systemName: "mappin.and.ellipse.cirle").imageScale(.large).foregroundColor(.white)
-                        Text(travelLocation).font(.custom("Poppins-Light", size: 15)).foregroundStyle(.white).kerning(-1)
+                        Image(systemName: "mappin.and.ellipse.circle")
+                            .imageScale(.large)
+                            .foregroundColor(.white)
+                        Text(travelLocation)
+                            .font(.custom("Poppins-Light", size: 15))
+                            .foregroundStyle(.white)
+                            .kerning(-1)
                     }
-                }.padding([.vertical,.horizontal])
-            }.frame(maxWidth: 250,maxHeight: 250)
+                }
+                .padding([.vertical, .horizontal])
+            }
+            .frame(maxWidth: 250)
+
         }
+    }
+}
+
+
+#Preview {
+    ForEach(Favorite.allCases,id: \.self) { items in
+        CardView(travelName: items.displayName, travelLocation: items.locationName, travelImage: items.imageName, isLiked: true)
     }
 }
