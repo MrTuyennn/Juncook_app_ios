@@ -20,6 +20,7 @@
 		7A8ADC5B2C5A7F37004A1A69 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8ADC5A2C5A7F37004A1A69 /* CameraManager.swift */; };
 		7A8ADC5D2C5A840C004A1A69 /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8ADC5C2C5A840C004A1A69 /* CameraViewModel.swift */; };
 		7A8ADC5F2C5A84FC004A1A69 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8ADC5E2C5A84FC004A1A69 /* CameraView.swift */; };
+		7AC194F12C7EC89400B3E4FE /* SchemePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC194F02C7EC89400B3E4FE /* SchemePickerView.swift */; };
 		7AE54FF12C6269A300A1AE7C /* CaptureButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE54FF02C6269A300A1AE7C /* CaptureButton.swift */; };
 		7AE54FF32C626B7000A1AE7C /* CameraSwitchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE54FF22C626B7000A1AE7C /* CameraSwitchButton.swift */; };
 		7AE54FF52C626BD500A1AE7C /* FocusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE54FF42C626BD500A1AE7C /* FocusView.swift */; };
@@ -53,6 +54,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		7AC194E82C7E316500B3E4FE /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		7A7A80CC2C6A5A6C00911BA0 /* Hotels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Hotels.swift; path = ../model/Hotels.swift; sourceTree = "<group>"; };
 		7A84B64D2C78317B0009F49B /* ContainerRelativeFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerRelativeFrame.swift; sourceTree = "<group>"; };
@@ -70,6 +84,9 @@
 		7A8ADC5A2C5A7F37004A1A69 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
 		7A8ADC5C2C5A840C004A1A69 /* CameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
 		7A8ADC5E2C5A84FC004A1A69 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		7AC194D52C7E316400B3E4FE /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		7AC194D72C7E316400B3E4FE /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		7AC194F02C7EC89400B3E4FE /* SchemePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchemePickerView.swift; sourceTree = "<group>"; };
 		7AE54FF02C6269A300A1AE7C /* CaptureButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureButton.swift; sourceTree = "<group>"; };
 		7AE54FF22C626B7000A1AE7C /* CameraSwitchButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraSwitchButton.swift; sourceTree = "<group>"; };
 		7AE54FF42C626BD500A1AE7C /* FocusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusView.swift; sourceTree = "<group>"; };
@@ -156,6 +173,7 @@
 				7A8ADC2C2C5A4764004A1A69 /* Juncook */,
 				7A8ADC3D2C5A4766004A1A69 /* JuncookTests */,
 				7A8ADC472C5A4766004A1A69 /* JuncookUITests */,
+				7AC194D42C7E316400B3E4FE /* Frameworks */,
 				7A8ADC2B2C5A4764004A1A69 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -173,10 +191,8 @@
 		7A8ADC2C2C5A4764004A1A69 /* Juncook */ = {
 			isa = PBXGroup;
 			children = (
-				7A8CED262C7E302300CF0738 /* LiveActivities */,
-				7A84B64C2C78304F0009F49B /* Modules */,
-				7A7A80CA2C6A5A2700911BA0 /* juncookHotel */,
-				7A8ADC572C5A47A7004A1A69 /* camera */,
+				7AC194EE2C7EC3FD00B3E4FE /* MainJuncook */,
+				7AC194ED2C7EC3BB00B3E4FE /* ExtraJunCook */,
 				7A8ADC2D2C5A4764004A1A69 /* JuncookApp.swift */,
 				7A8ADC2F2C5A4764004A1A69 /* ContentView.swift */,
 				7A8ADC312C5A4766004A1A69 /* Assets.xcassets */,
@@ -222,11 +238,39 @@
 			path = camera;
 			sourceTree = "<group>";
 		};
-		7A8CED262C7E302300CF0738 /* LiveActivities */ = {
+		7AC194D42C7E316400B3E4FE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7AC194D52C7E316400B3E4FE /* WidgetKit.framework */,
+				7AC194D72C7E316400B3E4FE /* SwiftUI.framework */,
 			);
-			path = LiveActivities;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7AC194ED2C7EC3BB00B3E4FE /* ExtraJunCook */ = {
+			isa = PBXGroup;
+			children = (
+				7A8ADC572C5A47A7004A1A69 /* camera */,
+				7A7A80CA2C6A5A2700911BA0 /* juncookHotel */,
+				7A84B64C2C78304F0009F49B /* Modules */,
+			);
+			path = ExtraJunCook;
+			sourceTree = "<group>";
+		};
+		7AC194EE2C7EC3FD00B3E4FE /* MainJuncook */ = {
+			isa = PBXGroup;
+			children = (
+				7AC194EF2C7EC87900B3E4FE /* Helpers */,
+			);
+			path = MainJuncook;
+			sourceTree = "<group>";
+		};
+		7AC194EF2C7EC87900B3E4FE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7AC194F02C7EC89400B3E4FE /* SchemePickerView.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		7AE54FEF2C62680100A1AE7C /* component */ = {
@@ -253,6 +297,7 @@
 				7A8ADC262C5A4764004A1A69 /* Sources */,
 				7A8ADC272C5A4764004A1A69 /* Frameworks */,
 				7A8ADC282C5A4764004A1A69 /* Resources */,
+				7AC194E82C7E316500B3E4FE /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -382,6 +427,7 @@
 				7AFE40132C6DE14800093B9D /* ShipDetailView.swift in Sources */,
 				7AE54FF52C626BD500A1AE7C /* FocusView.swift in Sources */,
 				7AF192B72C6A62EB0020533A /* CardView.swift in Sources */,
+				7AC194F12C7EC89400B3E4FE /* SchemePickerView.swift in Sources */,
 				7AE54FF92C62727D00A1AE7C /* SelectButton.swift in Sources */,
 				7AE54FF32C626B7000A1AE7C /* CameraSwitchButton.swift in Sources */,
 				7A8ADC302C5A4764004A1A69 /* ContentView.swift in Sources */,

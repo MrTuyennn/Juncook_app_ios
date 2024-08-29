@@ -11,7 +11,9 @@ import SwiftUI
 struct JuncookApp: App {
     var body: some Scene {
         WindowGroup {
-            CameraView()
+            SchemeHostView {
+                ContentView()
+            }
         }
     }
 }
