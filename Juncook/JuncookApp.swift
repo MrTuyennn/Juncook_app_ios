@@ -12,7 +12,8 @@ struct JuncookApp: App {
     var body: some Scene {
         WindowGroup {
             SchemeHostView {
-                ContentView()
+//                ContentView()
+                AppContainer()
             }
         }
     }

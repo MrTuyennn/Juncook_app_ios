@@ -10,6 +10,24 @@ import SwiftUI
 
 struct HomeScreen: View {
     var body: some View {
-        Text("Home screen")
+        NavigationStack {
+            VStack {
+                Text("Welcome to Home")
+                    .padding()
+            }
+            .toolbar {
+                ToolbarItem(placement: .topBarLeading) {
+                    Text("Home")
+                        .font(.largeTitle)
+                        .foregroundColor(.red) // Customize title color
+                }
+            }
+        }
+        
     }
+}
+
+
+#Preview {
+    HomeScreen()
 }

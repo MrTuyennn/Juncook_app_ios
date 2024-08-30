@@ -11,6 +11,7 @@
 		7A7A7A342C80C66D00EEE9D2 /* CommonScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7A7A332C80C66D00EEE9D2 /* CommonScreen.swift */; };
 		7A7A7A362C80C68B00EEE9D2 /* SettingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7A7A352C80C68B00EEE9D2 /* SettingScreen.swift */; };
 		7A7A7A382C80C6CC00EEE9D2 /* StoreScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7A7A372C80C6CC00EEE9D2 /* StoreScreen.swift */; };
+		7A7A7A3B2C816ED300EEE9D2 /* TabbleItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7A7A3A2C816ED300EEE9D2 /* TabbleItems.swift */; };
 		7A7A80CD2C6A5A6C00911BA0 /* Hotels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7A80CC2C6A5A6C00911BA0 /* Hotels.swift */; };
 		7A84B64E2C78317B0009F49B /* ContainerRelativeFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A84B64D2C78317B0009F49B /* ContainerRelativeFrame.swift */; };
 		7A8ADC2E2C5A4764004A1A69 /* JuncookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8ADC2D2C5A4764004A1A69 /* JuncookApp.swift */; };
@@ -77,6 +78,7 @@
 		7A7A7A332C80C66D00EEE9D2 /* CommonScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonScreen.swift; sourceTree = "<group>"; };
 		7A7A7A352C80C68B00EEE9D2 /* SettingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingScreen.swift; sourceTree = "<group>"; };
 		7A7A7A372C80C6CC00EEE9D2 /* StoreScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreScreen.swift; sourceTree = "<group>"; };
+		7A7A7A3A2C816ED300EEE9D2 /* TabbleItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbleItems.swift; sourceTree = "<group>"; };
 		7A7A80CC2C6A5A6C00911BA0 /* Hotels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Hotels.swift; path = ../model/Hotels.swift; sourceTree = "<group>"; };
 		7A84B64D2C78317B0009F49B /* ContainerRelativeFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerRelativeFrame.swift; sourceTree = "<group>"; };
 		7A8ADC2A2C5A4764004A1A69 /* Juncook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Juncook.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -155,6 +157,14 @@
 				7A7A7A372C80C6CC00EEE9D2 /* StoreScreen.swift */,
 			);
 			path = Screen;
+			sourceTree = "<group>";
+		};
+		7A7A7A392C816E7C00EEE9D2 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				7A7A7A3A2C816ED300EEE9D2 /* TabbleItems.swift */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 		7A7A80CA2C6A5A2700911BA0 /* juncookHotel */ = {
@@ -282,6 +292,7 @@
 		7AC194EE2C7EC3FD00B3E4FE /* MainJuncook */ = {
 			isa = PBXGroup;
 			children = (
+				7A7A7A392C816E7C00EEE9D2 /* Navigation */,
 				7A7A7A302C80C62D00EEE9D2 /* Screen */,
 				7AC194EF2C7EC87900B3E4FE /* Helpers */,
 			);
@@ -443,6 +454,7 @@
 			files = (
 				7AF192BE2C6CFB4A0020533A /* HotelDetailsView.swift in Sources */,
 				7A8ADC592C5A47BD004A1A69 /* CameraPreview.swift in Sources */,
+				7A7A7A3B2C816ED300EEE9D2 /* TabbleItems.swift in Sources */,
 				7AE54FF12C6269A300A1AE7C /* CaptureButton.swift in Sources */,
 				7AFE40112C6DE02100093B9D /* CampDetailView.swift in Sources */,
 				7A7A80CD2C6A5A6C00911BA0 /* Hotels.swift in Sources */,

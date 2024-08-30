@@ -10,6 +10,8 @@ import SwiftUI
 
 struct CommonScreen: View {
     var body: some View {
-        Text("CommonScreen")
+        NavigationStack {
+            Text("Common screen")
+        }.navigationTitle("Common")
     }
 }

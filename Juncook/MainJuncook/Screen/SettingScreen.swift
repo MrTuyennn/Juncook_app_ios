@@ -10,6 +10,8 @@ import SwiftUI
 
 struct SettingScreen: View {
     var body: some View {
-        Text("SettingScreen")
+        NavigationStack {
+            Text("Setting screen")
+        }.navigationTitle("Setting")
     }
 }

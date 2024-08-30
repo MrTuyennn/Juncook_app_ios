@@ -10,6 +10,8 @@ import SwiftUI
 
 struct StoreScreen: View {
     var body: some View {
-        Text("StoreScreen")
+        NavigationStack {
+            Text("Store screen")
+        }.navigationTitle("Store")
     }
 }
