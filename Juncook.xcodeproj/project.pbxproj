@@ -34,6 +34,9 @@
 		7AE54FF92C62727D00A1AE7C /* SelectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE54FF82C62727D00A1AE7C /* SelectButton.swift */; };
 		7AE54FFB2C62783E00A1AE7C /* CancelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE54FFA2C62783E00A1AE7C /* CancelButton.swift */; };
 		7AE54FFD2C635BA100A1AE7C /* ImageCropperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE54FFC2C635BA100A1AE7C /* ImageCropperView.swift */; };
+		7AF110162C8948D8007BB2B3 /* MasonryVStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF110152C8948D8007BB2B3 /* MasonryVStackView.swift */; };
+		7AF110182C895FF6007BB2B3 /* ImageUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF110172C895FF6007BB2B3 /* ImageUrl.swift */; };
+		7AF1101A2C896CBC007BB2B3 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF110192C896CBC007BB2B3 /* ImageView.swift */; };
 		7AF192B72C6A62EB0020533A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF192B62C6A62EB0020533A /* CardView.swift */; };
 		7AF192B92C6BA6250020533A /* horizontalEventsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF192B82C6BA6250020533A /* horizontalEventsCard.swift */; };
 		7AF192BC2C6BA8510020533A /* EventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF192BB2C6BA8510020533A /* EventListView.swift */; };
@@ -107,6 +110,9 @@
 		7AE54FF82C62727D00A1AE7C /* SelectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectButton.swift; sourceTree = "<group>"; };
 		7AE54FFA2C62783E00A1AE7C /* CancelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelButton.swift; sourceTree = "<group>"; };
 		7AE54FFC2C635BA100A1AE7C /* ImageCropperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCropperView.swift; sourceTree = "<group>"; };
+		7AF110152C8948D8007BB2B3 /* MasonryVStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasonryVStackView.swift; sourceTree = "<group>"; };
+		7AF110172C895FF6007BB2B3 /* ImageUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUrl.swift; sourceTree = "<group>"; };
+		7AF110192C896CBC007BB2B3 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		7AF192B62C6A62EB0020533A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		7AF192B82C6BA6250020533A /* horizontalEventsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = horizontalEventsCard.swift; sourceTree = "<group>"; };
 		7AF192BB2C6BA8510020533A /* EventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListView.swift; sourceTree = "<group>"; };
@@ -195,6 +201,9 @@
 			isa = PBXGroup;
 			children = (
 				7A84B64D2C78317B0009F49B /* ContainerRelativeFrame.swift */,
+				7AF110152C8948D8007BB2B3 /* MasonryVStackView.swift */,
+				7AF110172C895FF6007BB2B3 /* ImageUrl.swift */,
+				7AF110192C896CBC007BB2B3 /* ImageView.swift */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -462,6 +471,7 @@
 				7A7A80CD2C6A5A6C00911BA0 /* Hotels.swift in Sources */,
 				7A7A7A382C80C6CC00EEE9D2 /* StoreScreen.swift in Sources */,
 				7A84B64E2C78317B0009F49B /* ContainerRelativeFrame.swift in Sources */,
+				7AF1101A2C896CBC007BB2B3 /* ImageView.swift in Sources */,
 				7AFE40132C6DE14800093B9D /* ShipDetailView.swift in Sources */,
 				7AE54FF52C626BD500A1AE7C /* FocusView.swift in Sources */,
 				7AF192B72C6A62EB0020533A /* CardView.swift in Sources */,
@@ -480,6 +490,8 @@
 				7AFE40152C6DE19E00093B9D /* HomeView.swift in Sources */,
 				7AE54FF72C626C4A00A1AE7C /* SwitchFlash.swift in Sources */,
 				7A8ADC2E2C5A4764004A1A69 /* JuncookApp.swift in Sources */,
+				7AF110182C895FF6007BB2B3 /* ImageUrl.swift in Sources */,
+				7AF110162C8948D8007BB2B3 /* MasonryVStackView.swift in Sources */,
 				7AF192B92C6BA6250020533A /* horizontalEventsCard.swift in Sources */,
 				7AE54FFB2C62783E00A1AE7C /* CancelButton.swift in Sources */,
 				7AF192BC2C6BA8510020533A /* EventListView.swift in Sources */,

@@ -52,7 +52,7 @@ struct AppContainer: View {
     private func content(for tab: TabbleItems) -> some View {
         switch  tab {
         case .home:
-            HomeScreen()
+            MasonryVStackView()
         case .common:
             CommonScreen()
         case .store:
